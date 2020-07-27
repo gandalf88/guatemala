@@ -1,4 +1,4 @@
-# guatemala
+# guatemala App
 
 Realizar git clone del proyecto
 
