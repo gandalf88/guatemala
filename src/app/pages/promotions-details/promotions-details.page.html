@@ -1,0 +1,33 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+      <ion-title>Detalle de promoción</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{details.title}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Price : {{details.price}}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Address : {{details.address}}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Latitude: {{details.latitude}}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Longitude: {{details.longitude}}</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+  
